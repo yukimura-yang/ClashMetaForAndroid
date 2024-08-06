@@ -34,7 +34,8 @@ subprojects {
     extensions.configure<BaseExtension> {
         defaultConfig {
             if (isApp) {
-                applicationId = "com.github.metacubex.clash"
+//                applicationId = "com.github.metacubex.clash"
+                applicationId = "com.huawei.fans"
             }
 
             minSdk = 21
